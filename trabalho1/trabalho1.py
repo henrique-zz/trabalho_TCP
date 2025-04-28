@@ -5,8 +5,7 @@ diretorio = 'trabalho1'
 
 # \b: significa que estaremos analisando apenas palavras completas, e não subpalavras
 palavras_positivas = [
-    re.compile(r"\bbom\b", re.IGNORECASE),
-    # /w: permite qualquer coisa após o divert, para contar divertido e divertida
+    re.compile(r"\bbom\b", re.IGNORECASE), # \w: permite qualquer coisa após o divert, para contar divertido e divertida
     re.compile(r"\blegal\w+\b", re.IGNORECASE),
     re.compile(r"\binteressante\b", re.IGNORECASE),
     re.compile(r"\bdivertid\w+\b", re.IGNORECASE),
